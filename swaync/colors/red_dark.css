@@ -1,0 +1,29 @@
+@define-color bg #121212;
+@define-color bg-alt #1a1a1a;
+@define-color bg-hover #222222;
+
+@define-color fg #e5e5e5;
+@define-color fg-dim #a0a0a0;
+@define-color fg-muted #6c6c6c;
+
+/* Reds (main accent) */
+@define-color red #ff4d4d;
+@define-color red-dark #cc3a3a;
+@define-color red-darker #992b2b;
+@define-color red-soft #ff8080;
+
+/* Accent variations */
+@define-color accent @red;
+@define-color accent-alt #ff6666;
+
+/* Status colors */
+@define-color success #4caf50;
+@define-color warning #ffb84d;
+@define-color error #ff3333;
+
+/* Borders & outlines */
+@define-color border #2a2a2a;
+@define-color border-active #ff4d4d;
+
+/* Transparent overlays */
+@define-color overlay rgba(0, 0, 0, 0.6);
